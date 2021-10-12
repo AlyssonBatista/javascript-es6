@@ -39,7 +39,7 @@ console.log(frase);
 `js é "super" fácil"`;
 //"js é " super "fácil";// erro com o super
 
-//template string  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//template string   
 
 var gols = 10000;
 var frase1 = 'romario fez ' + gols + 'gols';
