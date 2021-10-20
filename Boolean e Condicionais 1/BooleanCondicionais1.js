@@ -40,7 +40,7 @@
  if(undefined);
  if(''); //ou com "" ou ``
 
- //Operador Lógico de Negação ! %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ //Operador Lógico de Negação ! %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // Usar a ! inverte o estado lógico da variável
 
 var casa = "bonita";
@@ -56,8 +56,36 @@ if(!true);//false
  if(!'Alysson')//false
  if(!-5);//false
  if(!{});//false
- if(!!casa){
+
+
+ // usar !! verifica o estado lógico real da variável 
+ if(!!casa){ 
    console.log(casa)
  }else{
-   
+    console.log("feia")
  }
+
+ //Operadores de comparação %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ var a = 10,
+     b = 5 ,
+     c = 20,
+     d = 11;
+
+if(a>b){
+  console.log("A maior que B");
+}else{
+  console.log("A menor que B");
+}
+if(a>c){
+  console.log("A maior que C");
+}else{
+  console.log("A menor que C");
+}
+if(a>d){
+  console.log("A maior que D");
+}else{
+  console.log("A menor que D");
+}
+
+
