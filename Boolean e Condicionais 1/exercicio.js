@@ -1,28 +1,48 @@
- //Qual o resultado da seguinte expressão?
-var total = 10 + 5 * 2 / 2 + 20;// 35
-console.log(total);
+ /* Verifique se a sua idade é maior do que a de algum parente
+  Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'*/
+ var idadeAlysson = 30;
+ var idadeAdriele = 30;
 
-// Crie duas expressões que retornem NaN
-var numero = 'dois'/ 3;
-var numero2 = "3s" * 2;
-console.log(+numero);
-console.log(+numero2);
+ if(idadeAlysson > idadeAdriele){
+   console.log('É maior');
+ }else if(idadeAlysson === idadeAdriele){
+  console.log('É igual');
+ }else{
+   console.log('É menor');
+ }
+ 
 
-// Somar a string '200' com o número 50 e retornar 250
-var n = '200';
-var n2 = 50;
-soma = +n + n2;
-console.log(soma);
+// Qual valor é retornado na seguinte expressão?
+var expressao = (5 - 2) && (5 - '') && (5 - 2);
+console.log(expressao);// 3 retorna a ultima verdade ou a primeira falsa
+// Verifique se as seguintes variáveis são Truthy ou Falsy
+var nome = 'Andre';// truthy
+console.log(nome);
+var idade = 28;// truthy
+var possuiDoutorado = false;// falsy
+var empregoFuturo;// falsy
+var dinheiroNaConta = 0;// truthy
 
-// Incremente o número 5 e retorne o seu valor incrementado
-let num = 5;
-console.log(num++);
-console.log(num);
+console.log(!!nome,!!idade,!! possuiDoutorado,!!empregoFuturo,!!dinheiroNaConta);
 
-// Como dividir o peso por 2?
-var numero = '80';
-var unidade = 'kg';
-var peso = +numero + unidade; // '80kg'
-var pesoPorDois = +numero / 2; // NaN (Not a Number)
-console.log(pesoPorDois);
+// Compare o total de habitantes do Brasil com China (valor em milhões)
+var brasil = 207;
+var china = 1340;
+if(brasil >china){
+  console.log('A população do Brasil é maior')
+}else{
+  console.log('A população da china é maior');
+}
+// O que irá aparecer no console?
+if(('Gato' === 'gato') && (5 > 2)) { // sairá falso pois Gato é diferente de gato
+  console.log('Verdadeiro');
+} else {
+  console.log('Falso');
+}
 
+// O que irá aparecer no console?
+if(('Gato' === 'gato') || (5 > 2)) {
+  console.log('Gato' && 'Cão');
+} else {
+  console.log('Falso');
+}

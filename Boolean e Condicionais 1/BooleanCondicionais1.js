@@ -88,4 +88,45 @@ if(a>d){
   console.log("A menor que D");
 }
 
+ // OU %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+//retorna verdadeiro se pelo uma condição for true
+
+
+true || true; // true
+true || false; // true
+false || true; // true
+'Gato' || 'Cão'; // 'Gato'
+(5 - 5) || (5 + 5); // 10
+'Gato' || false; // Gato
+(5 >= 5) || (3 < 6); // true
+
+
+
+// E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+//retorna verdadeiro se todas as condições forem true
+
+true && true; // true
+true && false; // false
+false && true; // false
+'Gato' && 'Cão'; // 'Cão'
+(5 - 5) && (5 + 5); // 0
+'Gato' && false; // false
+(5 >= 5) && (3 < 6); // true
+
+// switch case %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+var cor = 'blue';
+
+switch(cor){
+  case 'black':
+    console.log("A cor é black!");
+  break;
+  case 'blue':
+    console.log("A cor é blue");
+  break;
+  default:
+    console.log('Você errou a cor!');
+}
 
