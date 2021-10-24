@@ -26,5 +26,24 @@
 
  addEventListener("click",function(){console.log('Pare de clicar!!!')});
  
+function imc(peso,altura){
+  const imc = peso/altura**2;
+  return console.log(imc);
+}
 
- 
+imc(30,54);
+console.log(imc(30,54));
+
+function terceiraIdade(idade){
+if(typeof idade ==='number'){
+  if(idade >= 60){
+    console.log('É idoso');
+  }else{
+    console.log('Não é idoso');
+  }
+}else{
+  console.log('Digite um numero');
+}
+}
+
+terceiraIdade('a')
