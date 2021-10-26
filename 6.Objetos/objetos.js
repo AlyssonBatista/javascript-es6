@@ -29,3 +29,4 @@ menu.backgroundcolor = "#992323"; //Substitua o valor de uma propriedade utiliza
 
 console.log(menu.height);//Acesse propriedades de um objeto utilizando o ponto .
 
+var btn = document.querySelector('.btn')
